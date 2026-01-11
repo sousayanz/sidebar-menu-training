@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Lateral - Primeiro Contato</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!-- Botão / ícone para abrir o menu -->
+    <input type="checkbox" id="chec">
+    <label for="chec" class="btn-menu">
+        ☰
+    </label>
+
+    <!-- Menu lateral -->
+    <nav class="menu-lateral">
+        <h2>Meu Menu</h2>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#perfil">Perfil</a></li>
+            <li><a href="#config">Configurações</a></li>
+            <li><a href="#favoritos">Favoritos</a></li>
+            <li><a href="#sobre">Sobre o Projeto</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <div class="rodape-menu">
+            <p>Versão de estudo</p>
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal que desliza junto -->
+    <div class="conteudo">
+        <header class="topo">
+            <h1>Menu Lateral com HTML &amp; CSS</h1>
+            <p>Brincando com o truque do checkbox para abrir e fechar o menu.</p>
+        </header>
+
+        <section id="inicio">
+            <h2>Início</h2>
+            <p>
+                Este layout foi criado para treinar um menu lateral que aparece e
+                desaparece usando apenas HTML e CSS, sem nenhuma linha de JavaScript.
+            </p>
+            <p>
+                O objetivo é entender melhor como funcionam seletores, transições e
+                posicionamento de elementos na tela.
+            </p>
+        </section>
+
+        <section id="perfil">
+            <h2>Perfil</h2>
+            <p>
+                Aqui poderia entrar uma pequena descrição do usuário, foto de perfil,
+                links para redes sociais e qualquer outra informação relevante.
+            </p>
+            <p>
+                Por enquanto, este texto serve só para preencher espaço e deixar
+                o visual um pouco mais realista.
+            </p>
+        </section>
+
+        <section id="config">
+            <h2>Configurações</h2>
+            <p>
+                Em um projeto de verdade, esta área poderia trazer opções de tema,
+                preferências de notificação ou qualquer outra configuração do sistema.
+            </p>
+            <p>
+                Neste primeiro contato, o foco é apenas ter mais uma seção para
+                navegar e testar o comportamento do menu lateral.
+            </p>
+        </section>
+
+        <section id="favoritos">
+            <h2>Favoritos</h2>
+            <p>
+                Uma seção de favoritos é um bom lugar para listar links, páginas,
+                arquivos ou qualquer coisa que o usuário queira acessar rapidamente.
+            </p>
+            <p>
+                Aqui é possível testar listas, ícones e diferentes formas de
+                exibir informações importantes.
+            </p>
+            <ul class="lista-favoritos">
+                <li>Projeto HTML &amp; CSS básico</li>
+                <li>Repositório de estudos</li>
+                <li>Artigo sobre boas práticas de front-end</li>
+                <li>Playlist de músicas para programar</li>
+            </ul>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p>
+                Este projeto não tem a intenção de ser perfeito. Ele existe para
+                ser um laboratório visual, um lugar seguro para testar ideias sem medo.
+            </p>
+            <p>
+                A combinação de um menu lateral com conteúdo principal deslizante
+                é um padrão muito comum em sites e aplicações modernas.
+            </p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>
+                Esta é apenas uma simulação de uma área de contato. Em um projeto
+                real, aqui poderia existir um formulário funcional ou links diretos
+                para e-mail e redes sociais.
+            </p>
+
+            <form class="form-contato">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="nome@exemplo.com">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" rows="4" placeholder="Escreva sua mensagem aqui..."></textarea>
+
+                <button type="button">Enviar (apenas visual)</button>
+            </form>
+        </section>
+
+        <footer class="rodape">
+            <p>Primeiro contato com menu lateral usando HTML e CSS. Fique à vontade para clonar e modificar.</p>
+            <p>Yan - 2024</p>
+        </footer>
+    </div>
+
+</body>
+</html>
